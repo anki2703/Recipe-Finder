@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recipe Finder</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Find Meals For Your Ingredients</h1>
+        <blockquote>Real food doesn't have ingredients, real food is ingredients.<br>
+            <cite>- Jamie Oliver"</cite>
+          </blockquote>
+        <div class="search-box">
+            <input type="text" id="search-input" placeholder="Search for recipes by ingredient or cuisine...">
+            <button id="search-button">Search</button>
+        </div>
+        <div class = "meal-result">
+            <h2 class = "title">Your Search Results:</h2>
+        </div>
+        <div id="recipes-container" class="recipes-container"></div>
+    </div>
+  
+    <style>
+        /* Your other CSS styles here */
+
+        blockquote {
+            color: #fff;
+        }
+
+        blockquote cite {
+            color: #fff;
+        }
+
+        .view-recipe-button {
+            display: inline-block;
+            padding: 10px 15px;
+            margin-top: 10px;
+            font-size: 14px;
+            font-weight: bold;
+            color: #ffffff;
+            background-color:  #d65108;
+            text-align: center;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+
+        .view-recipe-button:hover {
+            background-color:  #b54507;
+        }
+    </style>
+
+    <script src="main.js"></script>
+</body>
+</html>
